@@ -43,7 +43,7 @@ wandb.init(
 
 """GET CHEXPERT DATAFRAMES"""
 
-eval_df=get_df_chex('/data/groups/beets-tan/_public/CheXpert-v1.0-small',pathology,True)
+eval_df=get_df_chex('csv_path',pathology,True)
 
 print('DATA LOADED!')
 

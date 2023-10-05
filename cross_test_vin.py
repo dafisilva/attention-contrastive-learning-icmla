@@ -42,7 +42,7 @@ wandb.init(
 
 """GET VINDRCXR DATAFRAMES"""
 
-eval_df=get_df_vindr('/data/groups/beets-tan/_public/Vindrcxr_resized',pathology,True)
+eval_df=get_df_vindr('csv_path',pathology,True)
 
 
 

@@ -40,7 +40,7 @@ wandb.init(
 
 
 
-eval_df=get_df_mimic('/data/groups/beets-tan/_public/mimic_jpeg_resized',pathology,True)
+eval_df=get_df_mimic('csv_path',pathology,True)
 
 
 
